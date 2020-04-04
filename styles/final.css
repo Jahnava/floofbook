@@ -1,0 +1,188 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 850px;
+    margin: 0 auto;
+    border: 3px solid #385898;
+    background-color: lightgray;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: .25em 0 .25em 0;
+	border-bottom: 3px solid #385898;
+   background-color:#385898;
+}
+header h1 {
+	font-size: 275%;
+    color: white;
+    padding-left: 5%;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: right;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+
+/* navigation menu */
+#nav_menu {
+    clear: left;
+}
+#nav_menu ul {
+	list-style-type: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+    width: 25%; /* 160 divide 800 */
+}
+#nav_menu ul ul{
+    display:none;
+    position: absolute;
+    top:100%;
+}
+#nav_menu ul ul li {
+    float:none;
+}
+#nav_menu ul li:hover > ul {
+   display: block; 
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#nav_menu ul {
+    margin: 0;
+    padding: 0;
+}
+#nav_menu ul li:hover ul {
+    width: 100%;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+#nav_menu ul li a.current {
+    color:orange;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color: gray;
+}
+
+/* the styles for the section */
+section {
+	width: 550px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+	font-size: 250%;
+	padding: .5em 0 .25em 0;
+	margin: 0; 
+}
+section h2 {
+	color: darkblue;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+    text-indent: 5px;
+}
+
+/* the styles for the article */
+article {
+	padding: 2em 0;
+	border-top: 2px solid darkblue;
+	border-bottom: 2px solid darkblue;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+    width:150px;
+    height:130px
+}
+
+/* the styles for the aside */
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside h4 {
+    “text-align: center” 
+}
+aside img {
+    width:160px;
+    height:130px;
+}
+aside img:hover{
+   box-shadow: 5px 10px 8px 10px #888888; 
+   height:130px; 
+}
+
+/* the styles for the footer */
+footer {
+	background-color: #385898;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
