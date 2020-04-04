@@ -147,37 +147,59 @@ article h2 {
 	font-size: 115%;
 	padding: 0 0 .25em 0;
 }
+article ul, li {
+    text-indent: 20px;
+}
+/*
 article img {
 	float: right;
 	margin: .5em 0 1em 1em;
-	border: 1px solid black;
+	border: 1px solid white;
+    
 }
+*/
 /* the styles for the aside */
 aside {
 	width: 215px;
 	float: right;
 	padding: 0 0 20px 20px;
 }
-aside h2 {
-	color: #800000;
+aside h2 a {
+	color: white;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
+    text-decoration: none;
 }
 
-aside h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+aside dt {
+	font-size: 80%;
+	padding-top: .75em;
+/*    font-family: inherit;*/
+    border-bottom: 1px solid white;
+
 }
-aside h4 {
-    “text-align: center” 
+aside dd {
+    font-size: 90%;   
+    padding-top: .75em;
+    font-weight: bold;
+    font-family: inherit;
+
+
 }
 aside img {
     width:160px;
     height:130px;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 aside img:hover{
    box-shadow: 5px 10px 8px 10px #888888; 
    height:130px; 
+}
+aside p {
+    padding-top: .75em;
+    font-size: 80%;
+    font-family: inherit;
 }
 
 /* the styles for the footer */
