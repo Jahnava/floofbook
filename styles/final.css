@@ -110,13 +110,17 @@ section h1 {
 	margin: 0; 
 }
 section h2 {
-/*	color: darkblue;*/
+	color: #303030;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
+}
+section h3{
+    padding: .5em 0 .75em 0;
 }
 
 section p {
 	padding-bottom: .5em;
+    text-indent: 5px;
 }
 section blockquote {
 	padding: 0 2em;
@@ -140,12 +144,13 @@ section img {
 
 /* the styles for the article */
 article {
-	padding: 1em 0 3em 0;
+	padding: 1em 0 4em 0;
 	border-top: 2px solid darkblue;
 	border-bottom: 2px solid darkblue;
 }
 article h2 {
-	padding-bottom: .75em;
+    padding: .5em 0 .25em 0;
+
 }
 article h3 {
 	font-size: 105%;
@@ -155,8 +160,8 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-    width:260px;
-    height:170px    
+    width:255px;
+    height:165px    
 }
 
 /* the styles for the aside */
