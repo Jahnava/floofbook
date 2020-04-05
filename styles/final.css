@@ -21,7 +21,7 @@ a:focus, a:hover {
 header {
 	padding: .25em 0 .25em 0;
 	border-bottom: 3px solid #385898;
-   background-color:#385898;
+    background-color:#385898;
 }
 header h1 {
 	font-size: 275%;
@@ -35,9 +35,6 @@ header h3 {
 header img {
 	float: right;
 	padding: 0 30px;
-}
-.shadow {
-	text-shadow: 2px 2px 2px #800000;
 }
 
 /* the styles for the main content */
@@ -89,28 +86,35 @@ main {
     color: white;
 }
 #nav_menu ul li a.current {
-    color:orange;
+    color:darkgrey;
+    font-weight: bold;
+}
+#nav_menu ul li a.current:hover {
+    color:white;
 }
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
     background-color: gray;
+    font-weight: bold;
 }
 
 /* the styles for the section */
 section {
 	width: 550px;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 20px 20px;
 }
 section h1 {
-	font-size: 250%;
+    color:#385898;
+	font-size: 200%;
 	padding: .5em 0 .25em 0;
 	margin: 0; 
 }
 section h2 {
-	color: darkblue;
+/*	color: darkblue;*/
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
+
 section p {
 	padding-bottom: .5em;
 }
@@ -126,14 +130,22 @@ section li {
     text-indent: 5px;
 }
 
+section img {
+    float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid white;
+    height:250px;
+    width:150px;
+}
+
 /* the styles for the article */
 article {
-	padding: 2em 0;
+	padding: 1em 0 3em 0;
 	border-top: 2px solid darkblue;
 	border-bottom: 2px solid darkblue;
 }
 article h2 {
-	padding-top: 0;
+	padding-bottom: .75em;
 }
 article h3 {
 	font-size: 105%;
@@ -143,36 +155,60 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-    width:150px;
-    height:130px
+    width:260px;
+    height:170px    
 }
 
 /* the styles for the aside */
 aside {
 	width: 215px;
 	float: right;
-	padding: 0 0 20px 20px;
-}
-aside h2 {
-	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
+	padding-bottom: 20px;
 }
 
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
+    text-align: center;
 }
 aside h4 {
-    “text-align: center” 
+	font-size: 105%;
+	padding-bottom: .25em;
 }
-aside img {
-    width:160px;
-    height:130px;
+
+aside img  {
+     width:160px;
+     height:135px;
+}
+
+aside h2 img  {
+     width:140px;
+     height:135px;
+    padding-left: .75em;
+}
+aside h2 a {
+    color:white;
+    text-align: center;
+    font-size: 130%;
 }
 aside img:hover{
    box-shadow: 5px 10px 8px 10px #888888; 
-   height:130px; 
+}
+aside h2 img:hover{
+   box-shadow: 5px 5px 5px 5px lightgray; 
+}
+aside dt {
+	font-size: 90%;
+	padding-top: .75em;
+    font-family: inherit;
+}
+
+aside dd {
+    font-size: 80%;   
+    padding: .25em 0 .75em .75em;
+    font-weight: bold;
+    font-family: inherit;
+    border-bottom: 1px solid white;
 }
 
 /* the styles for the footer */
