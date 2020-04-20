@@ -140,7 +140,30 @@ section img {
 	border: 1px solid white;
     height:250px;
     width:150px;
+
 }
+
+section figure img {
+  border: 1px solid #ddd; 
+  padding: 5px;
+  width: 30%; 
+  height: 30%  
+}
+
+section figure img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#friends-list {
+    float: left;
+    display: table;
+    position: relative;
+}
+
+figcaption {
+  display: block;
+}
+
 
 /* the styles for the article */
 article {
@@ -193,7 +216,7 @@ aside h2 img  {
 }
 aside h2 a {
     color:white;
-    text-align: center;
+    text-align: right;
     font-size: 130%;
 }
 aside img:hover{
