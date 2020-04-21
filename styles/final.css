@@ -167,7 +167,7 @@ figcaption {
 
 /* the styles for the article */
 article {
-	padding: 1em 0 4em 0;
+	padding: 1em 0 5em 0;
 	border-top: 2px solid darkblue;
 	border-bottom: 2px solid darkblue;
 }
@@ -184,7 +184,7 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
     width:255px;
-    height:165px    
+    height:180px;
 }
 
 /* the styles for the aside */
