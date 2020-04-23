@@ -183,10 +183,22 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
-    width:190px;
-    height:150px;
+    width:205px;
+    height:160px;
+}
+article dt {
+	font-size: 90%;
+	padding-top: .75em;
+    font-family: inherit;
 }
 
+article dd {
+    font-size: 80%;   
+    padding: .25em 0 .75em .75em;
+    font-weight: bold;
+    font-family: inherit;
+/*    border-bottom: 1px solid white;*/
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
