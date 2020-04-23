@@ -140,14 +140,20 @@ section img {
 	border: 1px solid white;
     height:250px;
     width:150px;
-
 }
 
 section figure img {
   border: 1px solid #ddd; 
   padding: 5px;
   width: 30%; 
-  height: 30%  
+  height: 30%;  
+}
+a section figure img  {
+  border: 1px solid #ddd; 
+  padding: 5px;
+  width: 50%; 
+  height: 50%;
+    float: left;
 }
 
 section figure img:hover {
