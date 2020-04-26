@@ -12,7 +12,7 @@ body {
     width: 95%; /*original width 850px*/
     max-width: 850px;
     margin: 0 auto;
-    border: 3px solid #385898;
+    border: 3px solid ;
     background-color: lightgray;
 }
 a:focus, a:hover {
@@ -133,6 +133,9 @@ section li {
 	padding-bottom: .35em;
     text-indent: 5px;
 }
+section ol {
+	padding: 0 0 .25em 1.25em;
+}
 
 section img {
     float: right;
@@ -142,21 +145,6 @@ section img {
     width:150px;
 }
 
-/*
-section figure img {
-  border: 1px solid #ddd; 
-  padding: 5px;
-  width: 30%; 
-  height: 30%;  
-}
-a section figure img  {
-  border: 1px solid #ddd; 
-  padding: 5px;
-  width: 50%; 
-  height: 50%;
-    float: left;
-}
-*/
 
 #friends-list {
     float: left;
@@ -164,12 +152,11 @@ a section figure img  {
     position: relative;
 }
 
-picture img {
+section picture img {
     height: 30%;
     width: 30%;
 }
 
-/*
 figure {
 	float: right;
 	margin-left:1.5em;
@@ -178,18 +165,16 @@ figcaption {
 	display: block;
 	font-weight: bold;
     padding-top: .25em;
-    margin-left: .15em;
-    margin-bottom: 1em;
-	border-bottom: 1px solid black;
+    margin: 0 0 1em .15em;
     float: right;
     clear: both;
+    color: #385898;
 }
-*/
 
 
 /* the styles for the article */
 article {
-	padding: 1em 0 5em 0;
+	padding: 1em 0 3.5em 0;
 	border-top: 2px solid darkblue;
 	border-bottom: 2px solid darkblue;
 }
@@ -219,7 +204,11 @@ article dd {
     padding: .25em 0 .75em .75em;
     font-weight: bold;
     font-family: inherit;
-/*    border-bottom: 1px solid white;*/
+}
+
+article picture img {
+    height: 100%;
+    width: 100%;
 }
 /* the styles for the aside */
 aside {
